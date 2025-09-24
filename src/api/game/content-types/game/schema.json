@@ -32,7 +32,7 @@
         }
       },
       "required": true,
-      "unique": false
+      "unique": true
     },
     "icon": {
       "type": "media",
@@ -56,7 +56,7 @@
         }
       },
       "required": true,
-      "unique": false
+      "unique": true
     },
     "title": {
       "type": "string",
