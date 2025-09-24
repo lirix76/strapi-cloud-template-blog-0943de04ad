@@ -525,7 +525,6 @@ export interface ApiGameGame extends Struct.CollectionTypeSchema {
     airtableRecordID: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Private &
-      Schema.Attribute.Unique &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -536,7 +535,6 @@ export interface ApiGameGame extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     gameId: Schema.Attribute.Integer &
       Schema.Attribute.Required &
-      Schema.Attribute.Unique &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
